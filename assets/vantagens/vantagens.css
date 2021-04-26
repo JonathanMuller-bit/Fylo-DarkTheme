@@ -1,0 +1,59 @@
+.vantagens{
+    background-color: hsl(218, 28%, 13%);
+    padding: 5% 15%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vantagens-card{
+    width: 40%;
+    padding: 3% 0;
+}
+
+.vantagens-icone{
+    padding: 5%;
+}
+
+.vantagens-titulo{
+    color: #efefef;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 4% 0;
+    
+}
+
+.vantagens-descricao{
+    color: #acacac;
+    line-height: 1.5;
+}
+
+@media (max-width: 650px){
+    .vantagens{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vantagens-card{
+       width: 90%;
+    }
+}
+
+@media (max-width: 400px){
+
+    .vantagens{
+        padding: 10% 5%;
+    }
+    .vantagens-titulo{
+        font-size: 1rem;
+    }
+    .vantagens-card{
+        width: 100%;
+        padding: 5% 0;
+     }
+     .vantagens-descricao{
+         font-size: .9rem;
+     }
+}

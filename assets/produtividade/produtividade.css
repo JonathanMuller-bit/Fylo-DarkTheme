@@ -1,0 +1,79 @@
+.produtividade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(218, 28%, 13%);
+    padding: 2% 5%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.produtividade-imagem{
+    margin-right: 5%;
+}
+
+.produtividade-titulo{
+    color: #efefef;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.2;
+
+}
+.produtividade-paragrafo{
+    padding: 2.5% 0;
+    line-height: 1.5;
+    color: #dadada;
+    font-size: 1.1rem;
+}
+
+.produtividade-link{
+    color: hsl(176, 68%, 64%);
+}
+
+.produtividade-link::after{
+    content: url('../../images/icon-arrow.svg');
+    padding-left: 1%;
+
+}
+
+.produtividade-link:hover{
+    color: white;
+    font-weight: bold;
+}
+
+
+@media (max-width: 1200px){
+   .produtividade{
+       display: flex;
+       flex-direction: column;
+       
+   }
+
+   .produtividade-imagem{
+       width: 70%;
+   }
+}
+@media (max-width: 650px){
+    .produtividade-titulo{
+        font-size: 2rem;
+        padding: 5%;
+    }
+}
+
+@media (max-width: 400px){
+    .produtividade{
+        padding: 10% 5%;
+        align-items: center;
+    }
+
+   
+    .produtividade-titulo{
+        font-size: 1.1rem;
+        padding: 5% 0;
+
+    }
+
+    .produtividade-paragrafo{
+        font-size: .9rem;
+    }
+ }

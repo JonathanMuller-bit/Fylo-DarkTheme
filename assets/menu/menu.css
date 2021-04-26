@@ -1,0 +1,51 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 5%;
+    background-color: hsl(217, 28%, 15%);
+    
+
+}
+
+.menu-lista{
+    display: flex;
+}
+
+.menu-item{
+    padding-left: 50px;
+}
+
+.menu-link{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    color: #acacac
+}
+
+.menu-link:hover{
+    font-weight: bold;
+    color: #efefef;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+@media (max-width: 650px){
+    .menu{
+        background-color: hsl(218, 28%, 13%);
+    }
+
+    .menu-item{
+        padding-left: 10px;
+    }
+    .menu-logo{
+        width:20%;
+    }
+ }
+
+ @media (max-width: 400px){
+    .menu-link{
+        font-size: 0.9rem;
+    }
+ }

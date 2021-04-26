@@ -1,0 +1,83 @@
+.depoimentos{
+    background-color: hsl(218, 28%, 13%);
+    padding:  4% 4% 0 4% ;
+    
+    font-family: 'Open Sans', sans-serif;
+    box-sizing:border-box;
+    
+
+}
+
+.depoimentos-cards{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url('../../images/bg-quotes.png');
+    background-repeat: no-repeat;
+    padding: 2.5% 1%;
+}
+
+
+.depoimentos-card{
+    width: 26%;
+    background-color: hsl(219, 30%, 18%);
+    padding: 3%;
+}
+
+.depoimentos-texto{
+    color: #efefef;
+    line-height: 1.5;
+    padding-bottom: 5%;
+}
+
+.depoimentos-perfil{
+    display: flex;
+}
+
+.depoimentos-imagem{
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 3%;
+}
+
+.depoimentos-nome{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+.depoimentos-cargo{
+    font-size: 0.8rem;
+    color: #efefef
+}
+
+@media (max-width: 1200px){
+  
+    .depoimentos-cards{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .depoimentos-card{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .depoimentos-imagem{
+        width: 5%;
+    }
+ }
+
+ @media (max-width: 400px){
+    .depoimentos-texto{
+        font-size: .9rem;
+    }
+    .depoimentos-imagem{
+        width: 10%;
+    }
+    .depoimentos-perfil{
+        align-items: center;
+    }
+ }
